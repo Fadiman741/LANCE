@@ -3,7 +3,7 @@
         background-size: cover;
         /* height: 100vh; */
         /* padding:40px; */
-        background-image:  url('src/assets/background/2.jpg');
+        background-image:  url('src/assets/background/3.jpg');
         background-attachment: fixed;
         /* opacity: 0.9; */
 }
@@ -159,6 +159,7 @@ iframe{
         .buttons{
                 padding: 20px;
         }
+
 }
 /* -------------------CONTACT ME------------------------ */
 .contact{
