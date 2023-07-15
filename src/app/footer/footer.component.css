@@ -1,0 +1,71 @@
+hr {
+        overflow: visible; /* For IE */
+        padding: 0;
+        border: none;
+        border-top: medium double #212121;;
+        color: #212121;
+        text-align: center;
+}
+hr:after {
+        /* content: "xxxxxxx"; */
+        display: inline-block;
+        position: relative;
+        top: -0.8em;
+        font-size: 1.2em;
+        padding: 0 0.15em;
+        background: #212121;
+}
+.footer{
+        margin-bottom: 30px;
+}
+.footer-items{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+}
+p{
+        font-family: "Work Sans",sans-serif;
+        font-size: 15px;    
+        padding-top: 15px;
+
+}
+h2{
+        font-family: "Work Sans",sans-serif;
+}
+ 
+h2 {
+        display: inline-block;
+        position: relative;
+        padding-top: 20px;
+}
+h2:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color:  black;
+        transform-origin: bottom right;
+        padding: 1px;
+        transition: transform 0.25s ease-out;
+}
+h2:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+}
+a{
+        text-decoration: none;
+        
+        font-family: "Work Sans",sans-serif;
+        font-size: 15px;  
+        padding-top: 15px;
+        color: black;
+}
+
+@media screen and (max-width: 678px) {
+        .footer-items{
+                flex-direction: column;
+        }
+}
