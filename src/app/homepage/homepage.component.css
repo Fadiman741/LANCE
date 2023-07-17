@@ -10,7 +10,11 @@
         /* opacity: 0.9; */
 }
 .homepage{
-        background-image:  url('src/assets/background/6.jpg');
+        /* background-image:  url('src/assets/background/6.jpg'); */
+        /* background-image:  url('src/assets/background/bg2.jpeg'); */
+        background-image: linear-gradient(to bottom, rgba(32, 80, 88, 0.85), rgba(18,42, 66, .85)), 
+        url('src/assets/background/bg2.jpeg');
+
         background-size: cover;
 
 }
@@ -57,9 +61,9 @@ p{
         border-radius: 5px;
         transition: all .3s ease;
         align-items: center;
-        width: 280px;
+        width: 180px;
         height: 60px;
-        font-size: 16px;
+        font-size: 18px;
         /* margin: auto; */
 }
 
@@ -115,7 +119,12 @@ iframe{
         
 }
 .services{
-        background-image:  url('src/assets/background/9.jpg');
+        /* background-image:  url('src/assets/background/9.jpg'); */
+        /* background-image:  url('src/assets/background/bg1.jpeg'); */
+        background-image: linear-gradient(to bottom, rgba(32, 80, 88, 0.85), rgba(18,42, 66, .85)), 
+        url('src/assets/background/bg1.jpeg');
+
+
         background-size: cover;
         /* background-attachment: fixed; */
 
