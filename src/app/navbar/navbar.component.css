@@ -14,6 +14,7 @@
 .logo {
         font-size: 32px;
         padding-top: 15px;
+        padding-left: 28px;
 }
 /* NAVBAR MENU */
 .menu {
@@ -95,6 +96,10 @@ input[type=checkbox] {
                 left: 50%;
                 top: 30px;
                 transform: translateX(35%);
+        }
+        .logo {
+
+                padding-left: 0px;
         }
 
 }

@@ -63,7 +63,12 @@ a{
         padding-top: 15px;
         color: black;
 }
-
+.social-icons{
+        border: 1px solid black;
+        padding: 8px 15px;
+        margin-right: 3%;
+        margin-top: 20px;
+}
 @media screen and (max-width: 678px) {
         .footer-items{
                 flex-direction: column;
