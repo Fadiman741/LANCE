@@ -147,12 +147,12 @@ iframe{
                 /* font-size: 21px; */
                 padding:30px;
         }
-        .arrow-button {
-                width: 250px;
+        /* .arrow-button {
+                width: 250px; 
                 height: 50px;
-                /* font-size: 17PX; */
-                padding-left: 15px;
-        }
+                font-size: 17PX; 
+                 padding-left: 15px;
+        } */
         .container{
                 padding:30px
         }

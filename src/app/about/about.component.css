@@ -1,7 +1,13 @@
+h2{
+        color: #0A4041;
+
+}
 
 @media (max-width: 768px) {
         .about{
                 flex-direction: column;
         }
-
+        .youtube{
+                display: none;
+        }
 }
