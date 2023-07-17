@@ -8,15 +8,17 @@ import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { CompaniesComponent } from './companies/companies.component';
 
 @NgModule({
-  declarations: [					
+  declarations: [						
     AppComponent,
       HomepageComponent,
       ContactComponent,
       NavbarComponent,
       FooterComponent,
-      AboutComponent
+      AboutComponent,
+      CompaniesComponent
    ],
   imports: [
     BrowserModule,
