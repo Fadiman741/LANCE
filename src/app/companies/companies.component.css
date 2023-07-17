@@ -9,7 +9,7 @@
       }
       
       .cards {
-        width: calc(100% - 80px);
+        width: calc(100% - 100px);
         overflow: hidden;
       }
       
@@ -19,7 +19,7 @@
       }
       
       .card {
-        height: 170px;
+        height: 190px;
         /* background-color: #e0e1e2; */
         border-radius: 5px;
         display: inline-block;
