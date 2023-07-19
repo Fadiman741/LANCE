@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ViewportScroller } from "@angular/common";
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scroller: ViewportScroller) { }
 
   ngOnInit() {
+  }
+
+  goHome() {
+    this.scroller.scrollToAnchor("home");
+  }
+  goDown1() {
+    this.scroller.scrollToAnchor("about");
+  }
+
+  goDown2() {
+    this.scroller.scrollToAnchor("Whatwedo");
+  
+  }
+
+  goDown3() {
+    this.scroller.scrollToAnchor("Howwedoit");
   }
 
 }

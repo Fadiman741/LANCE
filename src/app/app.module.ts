@@ -9,16 +9,22 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { CompaniesComponent } from './companies/companies.component';
+import { BookacallComponent } from './bookacall/bookacall.component';
+import { TermsandComponent } from './termsand/termsand.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
-  declarations: [						
+  declarations: [									
     AppComponent,
       HomepageComponent,
       ContactComponent,
       NavbarComponent,
       FooterComponent,
       AboutComponent,
-      CompaniesComponent
+      CompaniesComponent,
+      BookacallComponent,
+      TermsandComponent,
+      FormComponent
    ],
   imports: [
     BrowserModule,

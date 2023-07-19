@@ -1,0 +1,128 @@
+.contact{
+        /* background-color: #0F4148; */
+        /* font-family: "Work Sans",sans-serif; */
+        padding-top: 100px;
+        transform: skewY(-3deg);
+}
+.contact h1{
+        color:orange;
+        text-align: center;
+        /* padding: 35px; */
+        font-weight: 800;
+}
+.contact p{
+        color:#ddd;
+        text-align: center;
+        font-size: 15px;
+        padding: 15px;
+        margin-bottom: 40px;
+        font-family: "Work Sans",sans-serif;
+}
+input{
+        /* width: 45%; */
+        height: 50px;
+        padding-left: 15px;
+        /* border-radius: 4px; */
+        border-radius: 8px;
+
+        border: none;
+        background-color: #eee;
+}
+label{
+        color: #ddd;
+        font-size: 15px;
+        padding-bottom: 5px;
+        font-family: "Work Sans",sans-serif;
+}
+.input{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 48%;
+        /* margin: 3%; */
+}
+.textarea{
+        display: flex;
+        flex-direction: column;
+        margin-right: 4%;
+        margin-top: 20px;
+        
+}
+.textarea textarea{
+        width: 100%;
+        height: 200px;
+        border: none;
+        /* border-radius: 3px; */
+        border-radius: 8px;
+
+        padding: 15px;
+        background-color: #eee;
+
+}
+.arrow-button {
+        display: flex;
+        border: none;
+        color: #ddd;
+        background-color: orange;
+        padding-left: 15px;
+        border-radius: 2px;
+        transition: all .3s ease;
+        align-items: center;
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+}
+.arrow-button > .arrow {
+        width: 10px;
+        height: 10px;
+        border-right: 2px solid #ddd;
+        border-bottom: 2px solid #ddd;
+        transform: rotate(-45deg);
+        margin-left:5px ;
+        transition: all .3s ease;
+}
+.arrow-button > .arrow::before {
+        display: block;
+        background-color: currentColor;
+        width: 3px;
+        transform-origin: bottom right;
+        height: 2px;
+        position: absolute;
+        opacity: 0;
+        bottom: calc(-2px / 2);
+        transform: rotate(45deg);
+        transition: all .3s ease;
+        content: "";
+        right: 0;
+}
+.arrow-button:hover > .arrow {
+        transform: rotate(-45deg) translate(10px, 10px);
+        border-color: text-hover-color;
+}
+.arrow-button:hover > .arrow::before {
+        opacity: 1;
+        width: 25px;
+}
+.arrow-button:hover {
+        background-color: orange;
+        color: #ddd;
+}
+::placeholder {
+        color: #bbb;
+        font-size: 14px;
+        font-family: "Work Sans",sans-serif;
+
+}
+@media screen and (max-width: 678px) {
+        .contact{
+
+                padding: 3%;
+        }
+        .textarea textarea{
+                width: 96%;
+        }
+}

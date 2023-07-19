@@ -19,7 +19,8 @@
 
 }
 .container{
-        padding:50px
+        padding-left: 50px;
+        padding-top: 150px;
 }
 .container h1{
         color: orange;
@@ -142,6 +143,7 @@ iframe{
         }
         .container h1{
                 font-size: 55px;
+                padding-top: 100px;
         }
         .tagline p {
                 /* font-size: 21px; */
