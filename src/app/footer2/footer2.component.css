@@ -67,11 +67,15 @@ a{
         color: black;
 }
 .social-icons{
-        border: 1px solid #0A4041;
-        padding: 8px 15px;
-        margin-right: 3%;
-        margin-top: 20px;
+        /* border: 1px solid #0A4041; */
+        /* padding: 8px 15px; */
+        /* margin-right: 3%; */
+        /* margin-top: 20px; */
 }
+fa-icon{
+        font-size: 35px;   
+        color: #0A4041; 
+} 
 @media screen and (max-width: 678px) {
         .footer-items{
                 flex-direction: column;

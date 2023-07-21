@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { faLinkedin ,faSquareWhatsapp} from '@fortawesome/free-brands-svg-icons';
+
 
 @Component({
   selector: 'app-footer2',
@@ -8,6 +10,8 @@ import { Router } from '@angular/router';
 })
 export class Footer2Component implements OnInit {
 
+  faLinkedin=faLinkedin;
+  faSquareWhatsapp=faSquareWhatsapp;
   constructor(private router:Router) { }
 
   ngOnInit() {
