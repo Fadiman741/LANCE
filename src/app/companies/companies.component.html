@@ -1,4 +1,5 @@
 <div style="background-color: #0A4041; padding-top: 50px;padding-bottom: 50px;">
+    <h1 style="text-align: center;padding-bottom: 40px;color: orange;font-size: 40px;">Some client's we've worked with</h1>
   <div class="container" #container style="opacity: 0.8;">
     <div class="left" *ngIf="totalPages > 1" (click)="currentPage != 1 && changePage(-1)" [ngClass]="{'disabled':currentPage === 1}"></div>
     <div class="cards" [ngClass]="{'w-100': totalPages === 1}">

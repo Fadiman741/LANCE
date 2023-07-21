@@ -30,5 +30,13 @@ export class FooterComponent implements OnInit {
   goDown3() {
     this.scroller.scrollToAnchor("Howwedoit");
   }
+  goHome() {
+    this.scroller.scrollToAnchor("home");
+  }
+
+  routePrivacy(){
+    this.router.navigate(['/privacy-policy']);
+
+  }
 
 }

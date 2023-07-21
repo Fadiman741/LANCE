@@ -7,7 +7,7 @@ import {TermsandComponent} from './termsand/termsand.component'
 const routes: Routes = [
   { path:'', component:HomepageComponent},
   { path:'book-a-call', component:BookacallComponent},
-  { path: 'terms-and-conditions',component:TermsandComponent}
+  { path: 'privacy-policy',component:TermsandComponent}
 ];
 
 @NgModule({

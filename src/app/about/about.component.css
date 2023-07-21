@@ -2,12 +2,24 @@ h2{
         color: #0A4041;
 
 }
-
+.container1{
+        width: 50%;
+}
+.container2{
+        width: 50%;
+        padding-top:30px
+}
 @media (max-width: 768px) {
         .about{
                 flex-direction: column;
         }
-        .youtube{
+        /* .youtube{
                 display: none;
+        } */
+        .container1{
+                width: 100%;
+        }
+        .container2{
+                width: 100%;
         }
 }

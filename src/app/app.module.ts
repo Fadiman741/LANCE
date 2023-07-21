@@ -12,9 +12,11 @@ import { CompaniesComponent } from './companies/companies.component';
 import { BookacallComponent } from './bookacall/bookacall.component';
 import { TermsandComponent } from './termsand/termsand.component';
 import { FormComponent } from './form/form.component';
+import { NavBar2Component } from './Nav-bar-2/Nav-bar-2.component';
+import { Footer2Component } from './footer2/footer2.component';
 
 @NgModule({
-  declarations: [									
+  declarations: [											
     AppComponent,
       HomepageComponent,
       ContactComponent,
@@ -24,7 +26,9 @@ import { FormComponent } from './form/form.component';
       CompaniesComponent,
       BookacallComponent,
       TermsandComponent,
-      FormComponent
+      FormComponent,
+      NavBar2Component,
+      Footer2Component
    ],
   imports: [
     BrowserModule,

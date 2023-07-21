@@ -1,10 +1,10 @@
-<div style="height:90px;background-color: #0A4041;width: 100%;" id="home">
+<div style="height:90px;background-color: #0A4041;width: 100%;">
   <nav class="navbar" style="padding-left: 20px;padding-right: 20px;">
     <!-- LOGO -->
     <div class="logo">
         <!-- <h1 style="font-weight: 600;color: orange;;">Logo</h1> -->
         <!-- <img src="assets/LOGO/5.png"> -->
-        <div style="max-width: 130px;max-height: 140px; margin: auto;" (click)="goHome()">
+        <div (click)="routeHome()" style="max-width: 130px;max-height: 140px; margin: auto;" >
           <img src="assets/logo/logo3.png" style="width: 100%;">
         </div>
     </div>
@@ -13,10 +13,10 @@
         <input type="checkbox" id="checkbox_toggle" />
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <div class="menu">
-            <li (click)="goHome()" ><a class="navlinks">Home</a></li>
-            <li (click)="goDown1()"> <a class="navlinks whoarewe">Who we are ? </a></li>
-            <li (click)="goDown2()" ><a class="navlinks whatarewe" >What we do ?</a></li>
-            <li (click)="goDown3()"><a class="navlinks Howwedoit" >How we do it ? </a></li>
+            <li (click)="routeHome()" ><a class="navlinks" >Home</a></li>
+            <!-- <li ><a class="navlinks whoarewe">Who we are ? </a></li>
+            <li ><a class="navlinks whatarewe" >What we do ?</a></li>
+            <li ><a class="navlinks Howwedoit" >How we do it ? </a></li> -->
         </div>
     </ul>
   </nav>
