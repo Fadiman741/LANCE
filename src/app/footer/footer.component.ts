@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ViewportScroller } from "@angular/common";
+import { faLinkedin ,faSquareWhatsapp} from '@fortawesome/free-brands-svg-icons';
+
 
 @Component({
   selector: 'app-footer',
@@ -8,6 +10,9 @@ import { ViewportScroller } from "@angular/common";
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+
+  faLinkedin=faLinkedin;
+  faSquareWhatsapp=faSquareWhatsapp;
 
   constructor(private router:Router,private scroller: ViewportScroller) { }
 

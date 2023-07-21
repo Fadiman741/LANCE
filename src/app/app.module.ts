@@ -14,6 +14,7 @@ import { TermsandComponent } from './termsand/termsand.component';
 import { FormComponent } from './form/form.component';
 import { NavBar2Component } from './Nav-bar-2/Nav-bar-2.component';
 import { Footer2Component } from './footer2/footer2.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [											
@@ -32,7 +33,8 @@ import { Footer2Component } from './footer2/footer2.component';
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
