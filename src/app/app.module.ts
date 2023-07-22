@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
@@ -16,6 +16,8 @@ import { NavBar2Component } from './Nav-bar-2/Nav-bar-2.component';
 import { Footer2Component } from './footer2/footer2.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+import {EmailService} from './service/email.service';
+
 @NgModule({
   declarations: [											
     AppComponent,
@@ -30,13 +32,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
       FormComponent,
       NavBar2Component,
       Footer2Component
-   ],
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [EmailService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
