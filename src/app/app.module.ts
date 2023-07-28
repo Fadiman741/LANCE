@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { LocationStrategy, Location, PathLocationStrategy } from '@angular/common';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
@@ -39,7 +41,7 @@ import {EmailService} from './service/email.service';
     FontAwesomeModule,
     HttpClientModule
   ],
-  providers: [EmailService],
+  providers: [EmailService, Location, {provide: LocationStrategy, useClass: PathLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
