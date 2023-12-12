@@ -5,17 +5,23 @@
         /* padding:40px; */
         /* background-image:  url('src/assets/background/6.jpg'); */
         /* background-image:  url('https://i.gifer.com/7wkh.gif'); */
-        
+        /* background-image: linear-gradient(to bottom, rgba(6, 57, 58, 0.897) 100%,
+                                rgba(6, 57, 58, 0.89)),
+                        url('src/assets/background/1.jpg');
+        background-size: cover;
+        background-position: center; */
+               
         /* background-attachment: fixed; */
         /* opacity: 0.9; */
 }
 .homepage{
         /* background-image:  url('src/assets/background/6.jpg'); */
         /* background-image:  url('src/assets/background/bg2.jpeg'); */
-        background-image: linear-gradient(to bottom, rgba(32, 80, 88, 0.85), rgba(18,42, 66, .85)), 
-        url('src/assets/background/bg2.jpeg');
+        /* background-image: linear-gradient(to bottom, rgba(6, 57, 58, 0.932) 100%,
+                rgba(8, 48, 59, 0.918)), 
+        url('src/assets/background/3.jpg'); */
 
-        background-size: cover;
+        /* background-size: cover; */
 
 }
 .container{
@@ -44,8 +50,14 @@ p{
         color: #ccc;
 
 }
+
 .buttons{
         padding: 20px;
+        border-radius: 20px;
+        margin: 10px;
+        /* background: linear-gradient(180deg,
+                                rgb(2, 32, 32) 100%,
+                                rgba(141, 141, 141, 0.00) 100%); */
 }
 
 .button button{
@@ -57,13 +69,13 @@ p{
         display: flex;
         border: none;
         color: #eee;
-        background-color: orange;
+        background-color: #ffa500a1;
         padding-left: 20px;
-        border-radius: 5px;
+        border-radius: 25px;
         transition: all .3s ease;
         align-items: center;
-        width: 180px;
-        height: 60px;
+        width: 160px;
+        height: 45px;
         font-size: 18px;
         /* margin: auto; */
 }
@@ -122,15 +134,58 @@ iframe{
 .services{
         /* background-image:  url('src/assets/background/9.jpg'); */
         /* background-image:  url('src/assets/background/bg1.jpeg'); */
-        background-image: linear-gradient(to bottom, rgba(32, 80, 88, 0.85), rgba(18,42, 66, .85)), 
-        url('src/assets/background/bg1.jpeg');
+        /* background-image: linear-gradient( rgba(20, 20, 20, 1), rgba(18,42, 66, 1)), 
+        url('src/assets/background/bg1.jpeg'); */
+        /* background-color:rgb(26, 26, 26) ; */
+        background-image: linear-gradient(45deg,
+                                rgba(6, 57, 58, 0.932) 100%,
+                                rgba(8, 48, 59, 0.918)),
+                        url('/assets/background/22.jpg');
+                background-size: cover;
+                background-position: center;
 
 
-        background-size: cover;
         /* background-attachment: fixed; */
 
 
 }
+                                .temp {
+                                        height: 70px;
+
+
+
+
+
+                                }
+
+div.slide-left {
+        width: 100%;
+        overflow: hidden;
+}
+
+.slide-left {
+        animation: slide-left 5s;
+}
+
+@keyframes slide-left {
+        from {
+                margin-left: 100%;
+                width: 200%;
+        }
+
+        to {
+                margin-left: 0%;
+                width: 100%;
+        }
+}
+
+.buttons:hover {
+        transform: scale(1.03);
+}
+.service-item:hover {
+        transform: scale(1.03);
+}
+
 @media screen and (max-width: 678px) {
         .portfolio-column {
                 flex-direction: column;
@@ -161,4 +216,7 @@ iframe{
         .button{
                 padding-left: 30px;
         }
+                                                .temp {
+                                                        height: 0px;
+                                                }
 }

@@ -2,7 +2,7 @@ hr {
         overflow: visible; /* For IE */
         padding: 0;
         border: none;
-        border-top: medium double #0A4041;
+        /* border-top: medium double #0A4041; */
         color: #0A4041;
         text-align: center;
 }
@@ -27,6 +27,7 @@ p{
         font-family: "Work Sans",sans-serif;
         font-size: 15px;    
         padding-top: 15px;
+        color: rgb(150, 150, 150);
 
 }
 h2{
@@ -37,7 +38,7 @@ h2 {
         display: inline-block;
         position: relative;
         padding-top: 20px;
-        color: #0A4041;
+        color: orange;
         font-size: medium;
         padding-bottom: 2px;
 }
@@ -64,7 +65,7 @@ a{
         font-family: "Work Sans",sans-serif;
         font-size: 15px;  
         padding-top: 15px;
-        color: black;
+        color: rgb(150, 150, 150);
 }
 .social-icons{
         /* border: 1px solid #0A4041; */
@@ -74,7 +75,7 @@ a{
 }
 fa-icon{
         font-size: 35px;   
-        color: #0A4041; 
+        color: #818181; 
 } 
 @media screen and (max-width: 678px) {
         .footer-items{

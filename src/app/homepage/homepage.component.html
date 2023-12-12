@@ -1,18 +1,49 @@
-<app-navbar></app-navbar>
-<div class="main-container">
-  <div class="homepage" style="min-height: 80vh;" id="home">
-    <div class="container">
-      <h1> Unleashing the Power of Lead Generation.</h1>
-    </div>
-    <div class="tagline" style="max-width: 800px;">
-      <p>Increasing your revenue & brand awareness with Targeted Leads</p>
-    
-    </div>
-    <div class="button" style="padding-bottom: 20px;">
-      <button (click)="routeBook()" class="arrow-button" style="font-size: 20px;">Book a Call<span class="arrow"></span>
-      </button>
+<div style="padding: 50px; background-color: rgb(5, 47, 48)">
+  <div
+    style="
+      background: linear-gradient(
+        180deg,
+        rgb(6, 57, 58) 100%,
+        rgba(32, 5, 5, 0.02) 100%
+      );
+      padding: 25px;
+      border-radius: 20px;
+    "
+  >
+    <app-navbar></app-navbar>
+    <div class="main-container">
+      <div class="homepage" style="min-height: 78vh" id="home">
+        <div class="container">
+          <h1
+            class="slide-left"
+            style="
+              font-size: 72px;
+              background: -webkit-linear-gradient(orange, #bb803db6);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              max-width: 1000px;
+            "
+          >
+            Unleashing the Power of Lead Generation.
+          </h1>
+        </div>
+        <div class="tagline" style="max-width: 800px">
+          <p>Increasing your revenue & brand awareness with Targeted Leads</p>
+        </div>
+        <div class="button" style="padding-bottom: 10px">
+          <button
+            (click)="routeBook()"
+            class="arrow-button"
+            style="font-size: 17px"
+          >
+            Book a Call<span class="arrow"></span>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
+</div>
+<div>
   <!-- ************************************************************************************************************ -->
   <app-about></app-about>
 
@@ -37,52 +68,178 @@
   <!-- ************************************************************************************************************ -->
 
   <!-- <hr style="border: 2px solid orange;"> -->
- 
+
   <!-- *******************************************SERVICES***************************************************************** -->
-  <div style="background-color:#0A4041;width:100%;" id="Whatwedo">
-    <div style=" max-width: 1400px; margin: auto;">
-        <div class="myportfolio" style="padding-top: 7%;">
-          <!--  -->
-        <h1 style="padding-bottom: 3px;color: orange; border-bottom: 6px solid orange;max-width: 290px;font-size: 50px;margin: 20px;font-weight: 800;font-stretch:condensed;text-align: center;margin: auto;">What we do?</h1>
-            <div class="portfolio-column" style="display: flex;justify-content: space-between;line-height: 1.6; padding-top: 5%;padding-bottom: 5%;">
-                <div class="buttons"  href="url">
-                    <h4 style="color: orange; font-size:24px; font-weight: 800;text-align: left;padding-bottom: 20px;font-family: Work Sans,sans-serif;">Lead Generation - Discover a Reliable Stream of High-Quality Leads</h4>
-                    <div>
-                        <p style="font-size:15px;padding-left:3% ;text-align: justify; border-left: 8px solid orange;color: #aaa;">At LeadCypher, we specialize in generating high-quality leads that can fuel your business growth. Our
-                          experienced team utilizes cutting-edge strategies and advanced data analytics to identify and engage
-                          with potential customers who are most likely to convert. With our lead generation service, you can focus
-                          on what you do best while we deliver a steady flow of qualified leads to your doorstep.</p>
-                    </div>
-                </div>
-                <div class="buttons"  href="url">
-                    <h4 style="color: orange; font-size:24px;font-weight: 800;text-align: left;padding-bottom: 20px;font-family: Work Sans,sans-serif;">Email Marketing - Amplify Your Reach and Maximize Conversions</h4>
-                    <div >
-                        <p style="font-size:15px;padding-left:4% ;text-align: justify; border-left: 8px solid orange;color: #aaa;">Unlock the true potential of your email marketing campaigns with LeadCypher. Our experts will help you
-                          build an effective email marketing strategy tailored to your business objectives. From crafting compelling
-                          email content to optimizing deliverability and tracking performance, we provide end-to-end solutions
-                          that drive engagement, nurture leads, and maximize conversions.</p>
-                    </div>
-                </div>
-                <div class="buttons"  href="url">
-                  <h4 style="color: orange; font-size:24px; font-weight: 800;text-align: left;padding-bottom: 20px;font-family: Work Sans,sans-serif;">LinkedIn Marketing - Harness the Power of the World's Largest Professional Network</h4>
-                  <div>
-                      <p style="font-size:15px;padding-left:3% ;text-align: justify; border-left: 8px solid orange;color: #aaa;">Tap into the vast network of professionals on LinkedIn with our targeted marketing solutions. We
-                        leverage LinkedIn's robust platform to identify, connect with, and engage decision-makers and key
-                        stakeholders in your industry. Our comprehensive LinkedIn marketing strategies enable you to build
-                        valuable relationships, establish thought leadership, and generate quality leads that can translate into
-                        long-term business success.</p>
-                  </div>
-              </div>
+  <div style="background-color: rgb(5, 47, 48); width: 100%" id="Whatwedo">
+    <div style="max-width: 1400px; margin: auto">
+      <div class="myportfolio" style="padding-top: 40px">
+        <div class="temp"></div>
+
+        <h1
+          style="
+            color: #aaa;
+            padding-left: 15px;
+            font-size: 35px;
+            margin: 20px;
+            font-weight: 700;
+            font-stretch: condensed;
+            margin: auto;
+            text-transform: uppercase;
+          "
+        >
+          What we do?
+        </h1>
+        <div class="temp"></div>
+
+        <!-- <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            max-width: 300px;
+          "
+        >
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+          <h1 style="color: orange; font-weight: 700">0</h1>
+        </div> -->
+        <!-- <br /> -->
+        <!-- <br /> -->
+        <hr class="style-two" />
+        <div
+          class="portfolio-column"
+          style="
+            display: flex;
+            justify-content: space-between;
+            line-height: 1.6;
+            padding-top: 3%;
+            padding-bottom: 3%;
+          "
+        >
+          <div class="buttons" href="url">
+            <h4
+              style="
+                color: orange;
+                font-size: 24px;
+                font-weight: 800;
+                text-align: left;
+                padding-bottom: 20px;
+                font-family: Work Sans, sans-serif;
+              "
+            >
+              Lead Generation - Discover a Reliable Stream of High-Quality Leads
+            </h4>
+            <div>
+              <p
+                style="
+                  font-size: 15px;
+                  padding-left: 3%;
+                  text-align: justify;
+                  border-left: 8px solid orange;
+                  color: #949494c7;
+                "
+              >
+                At LeadCypher, we specialize in generating high-quality leads
+                that can fuel your business growth. Our experienced team
+                utilizes cutting-edge strategies and advanced data analytics to
+                identify and engage with potential customers who are most likely
+                to convert. With our lead generation service, you can focus on
+                what you do best while we deliver a steady flow of qualified
+                leads to your doorstep.
+              </p>
             </div>
-            <!--  -->
+          </div>
+          <div class="buttons" href="url">
+            <h4
+              style="
+                color: orange;
+                font-size: 24px;
+                font-weight: 800;
+                text-align: left;
+                padding-bottom: 20px;
+                font-family: Work Sans, sans-serif;
+              "
+            >
+              Email Marketing - Amplify Your Reach and Maximize Conversions
+            </h4>
+            <div>
+              <p
+                style="
+                  font-size: 15px;
+                  padding-left: 4%;
+                  text-align: justify;
+                  border-left: 8px solid orange;
+                  color: #949494c7;
+                "
+              >
+                Unlock the true potential of your email marketing campaigns with
+                LeadCypher. Our experts will help you build an effective email
+                marketing strategy tailored to your business objectives. From
+                crafting compelling email content to optimizing deliverability
+                and tracking performance, we provide end-to-end solutions that
+                drive engagement, nurture leads, and maximize conversions.
+              </p>
+            </div>
+          </div>
+          <div class="buttons" href="url">
+            <h4
+              style="
+                color: orange;
+                font-size: 24px;
+                font-weight: 800;
+                text-align: left;
+                padding-bottom: 20px;
+                font-family: Work Sans, sans-serif;
+              "
+            >
+              LinkedIn Marketing - Harness the Power of the World's Largest
+              Professional Network
+            </h4>
+            <div>
+              <p
+                style="
+                  font-size: 15px;
+                  padding-left: 3%;
+                  text-align: justify;
+                  border-left: 8px solid orange;
+                  color: #949494c7;
+                "
+              >
+                Tap into the vast network of professionals on LinkedIn with our
+                targeted marketing solutions. We leverage LinkedIn's robust
+                platform to identify, connect with, and engage decision-makers
+                and key stakeholders in your industry. Our comprehensive
+                LinkedIn marketing strategies enable you to build valuable
+                relationships, establish thought leadership, and generate
+                quality leads that can translate into long-term business
+                success.
+              </p>
+            </div>
+          </div>
         </div>
+        <hr class="style-two" />
+
+        <div class="temp"></div>
+        <br />
+        <br />
+        <br />
+        <!--  -->
+      </div>
     </div>
   </div>
   <!-- *******************************************FEATURES---ONE***************************************************************** -->
-  <div style="background-color:orange;width:100%;">
-    <div style=" max-width: 1400px; margin: auto;">
-        <div class="myportfolio">
-          <!--  -->
+  <div style="background-color: orange; width: 100%">
+    <div style="max-width: 1400px; margin: auto">
+      <div class="myportfolio">
+        <!--  -->
         <!-- <h1 style="padding: 2px;color: black; border-bottom: 10px solid rgb(36, 35, 35);max-width: 210px;font-size: 60px;margin: 20px;font-weight: 800;font-family: Work Sans,sans-serif;font-stretch:condensed;">Features</h1>
             <div class="portfolio-column" style="display: flex;justify-content: space-between;line-height: 1.6;">
                 <div class="buttons"  href="url">
@@ -113,63 +270,179 @@
                   </div>
               </div>
             </div> -->
-            <!--  -->
-        </div>
+        <!--  -->
+      </div>
     </div>
   </div>
   <!-- *****************************************FEATURES---TWO******************************************************************* -->
-  <div class="services" style=" padding-top: 5%;padding-bottom: 5%;" id="Howwedoit">
-    <h1 style="text-align: center;color: orange;font-size: 55px;border-bottom: 6px solid orange;max-width: 350px;margin: auto;">How we do it ?</h1>
-    <div  class="service" style=" padding-top: 1%; display: flex; justify-content: space-between;max-width: 1200px;margin:auto">
-        <div class="service-item" style="border: 0px solid orange; max-width: 350px;width: 100%; border-radius: 35px;background-color: orange;">
-          <div style="padding:30px; min-height: 40px;">
-            <p style="text-align: center;color: black;">Make Informed Decisions with Actionable Analytics</p>
-          </div>
-          <div style="background-color: #0A4041;border: 1px solid #0A4041;">
-            <p style="color: orange;text-align: center;padding: 15px;"><b> DATA-DRIVEN INSIGHTS</b></p>
-          </div>
-          <div style="padding:20px; min-height: 170px;">
-            <p style="text-align: center;color: black;">With LeadCypher's data-driven insights, you can gain a deeper understanding of your target audience
-              and make informed decisions. We provide comprehensive analytics and reporting that uncover valuable
-              trends, customer behavior, and campaign performance metrics. Armed with this knowledge, you can
-              refine your marketing strategies, optimize conversions, and achieve sustainable growth.</p>
+  <div
+    class="services"
+    style="padding-top: 2%; padding-bottom: 2%"
+    id="Howwedoit"
+  >
+    <div class="temp"></div>
 
-          </div>
+    <h1
+      style="
+        text-align: right;
+        color: #aaa;
+        font-size: 30px;
+        margin: auto;
+        text-align: center;
+        text-transform: uppercase;
+      "
+    >
+      How we do it ?
+    </h1>
+    <br />
+    <div style="margin: auto; max-width: 300px">
+      <p style="color: orange; text-align: center">___________________</p>
+    </div>
+    <br />
+
+    <!-- <div class="temp"></div> -->
+    <div
+      class="service"
+      style="
+        padding-top: 1%;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+      "
+    >
+      <div
+        class="service-item"
+        style="
+          border: 0px solid orange;
+          max-width: 350px;
+          width: 100%;
+          border-radius: 15px;
+          background-color: orange;
+          background: linear-gradient(
+            0deg,
+            rgb(0 0 0 / 45%) 100%,
+            rgba(51, 51, 51, 0) 100%
+          );
+        "
+      >
+        <div style="padding: 30px; min-height: 40px">
+          <p style="text-align: center; color: #949494c7">
+            Make Informed Decisions with Actionable Analytics
+          </p>
         </div>
-        <div class="service-item" style="border: 0px solid orange; max-width: 350px;width: 100%; border-radius: 35px;background-color: orange;">
-          <div style="padding:30px;min-height: 40px;">
-            <p style="text-align: center;color: black;">Streamline Your Lead Generation Process</p>
-
-          </div>
-          <div style="background-color: #0A4041;border: 1px solid #0A4041;">
-            <p style="color: orange;text-align: center;padding: 15px;"><b>AUTOMATION AND SCALABILITY</b></p>
-          </div>
-          <div style="padding:20px;min-height: 170px;">
-            <p style="text-align: center;color: black;">Save time and resources with our automation and scalability solutions. LeadCypher employs state-ofthe-art tools and technologies to automate various aspects of your lead generation process. From lead
-              nurturing to campaign management, we ensure efficiency and scalability, enabling you to focus on core
-              business activities and scale your operations with ease.</p>
-
-          </div>
+        <div
+          style="
+            background-color: #0a4041;
+            border: 1px solid #0a4041;
+            margin-left: -5px;
+            margin-right: -5px;
+          "
+        >
+          <p style="color: orange; text-align: center; padding: 15px">
+            <b> DATA-DRIVEN INSIGHTS</b>
+          </p>
         </div>
-        <div class="service-item" style="border: 0px solid orange; max-width: 350px;width: 100%; border-radius: 35px;background-color: orange;">
-          <div style="padding:30px;min-height: 40px;">
-            <p style="text-align: center;color: black;">Tailor-Made Solutions for Your Business </p>
-
-          </div>
-          <div style="background-color: #0A4041;border: 1px solid #0A4041;">
-            <p style="color: orange;text-align: center;padding: 15px;"><b>PERSONALISZED CAMPAIGNS</b></p>
-          </div>
-          <div style="padding:20px;min-height: 170px;">
-            <p style="text-align: center;color: black;">We believe in the power of personalization. At LeadCypher, we create customized marketing campaigns
-              that align with your unique business goals and target audience. Our team takes the time to understand
-              your brand, industry, and competition to develop strategies that resonate with your prospects. By
-              delivering personalized experiences, you can build stronger connections, drive engagement, and convert
-              leads into loyal customers.</p>
-
-          </div>
+        <div style="padding: 20px; min-height: 230px">
+          <p style="text-align: center; color: #949494c7; line-height: 1.5">
+            With LeadCypher's data-driven insights, you can gain a deeper
+            understanding of your target audience and make informed decisions.
+            We provide comprehensive analytics and reporting that uncover
+            valuable trends, customer behavior, and campaign performance
+            metrics. Armed with this knowledge, you can refine your marketing
+            strategies, optimize conversions, and achieve sustainable growth.
+          </p>
         </div>
-       
-        <!-- <div class="service-item" style="border: 5px solid orange; max-width: 350px;width: 100%; border-radius: 30px;">
+      </div>
+      <div
+        class="service-item"
+        style="
+          border: 0px solid orange;
+          max-width: 350px;
+          width: 100%;
+          border-radius: 15px;
+          background-color: orange;
+          background: linear-gradient(
+            0deg,
+            rgb(0 0 0 / 45%) 100%,
+            rgba(51, 51, 51, 0) 100%
+          );
+        "
+      >
+        <div style="padding: 30px; min-height: 40px">
+          <p style="text-align: center; color: #949494c7">
+            Streamline Your Lead Generation Process
+          </p>
+        </div>
+        <div
+          style="
+            background-color: #0a4041;
+            border: 1px solid #0a4041;
+            margin-left: -5px;
+            margin-right: -5px;
+          "
+        >
+          <p style="color: orange; text-align: center; padding: 15px">
+            <b>AUTOMATION AND SCALABILITY</b>
+          </p>
+        </div>
+        <div style="padding: 20px; min-height: 230px">
+          <p style="text-align: center; color: #949494c7; line-height: 1.5">
+            Save time and resources with our automation and scalability
+            solutions. LeadCypher employs state-ofthe-art tools and technologies
+            to automate various aspects of your lead generation process. From
+            lead nurturing to campaign management, we ensure efficiency and
+            scalability, enabling you to focus on core business activities and
+            scale your operations with ease.
+          </p>
+        </div>
+      </div>
+      <div
+        class="service-item"
+        style="
+          border: 0px solid orange;
+          max-width: 350px;
+          width: 100%;
+          border-radius: 15px;
+          background-color: orange;
+          background: linear-gradient(
+            0deg,
+            rgb(0 0 0 / 45%) 100%,
+            rgba(51, 51, 51, 0) 100%
+          );
+        "
+      >
+        <div style="padding: 30px; min-height: 40px">
+          <p style="text-align: center; color: #949494c7">
+            Tailor-Made Solutions for Your Business
+          </p>
+        </div>
+        <div
+          style="
+            background-color: #0a4041;
+            border: 1px solid #0a4041;
+            margin-left: -5px;
+            margin-right: -5px;
+          "
+        >
+          <p style="color: orange; text-align: center; padding: 15px">
+            <b>PERSONALISZED CAMPAIGNS</b>
+          </p>
+        </div>
+        <div style="padding: 20px; min-height: 230px">
+          <p style="text-align: center; color: #949494c7; line-height: 1.5">
+            We believe in the power of personalization. At LeadCypher, we create
+            customized marketing campaigns that align with your unique business
+            goals and target audience. Our team takes the time to understand
+            your brand, industry, and competition to develop strategies that
+            resonate with your prospects. By delivering personalized
+            experiences, you can build stronger connections, drive engagement,
+            and convert leads into loyal customers.
+          </p>
+        </div>
+      </div>
+
+      <!-- <div class="service-item" style="border: 5px solid orange; max-width: 350px;width: 100%; border-radius: 30px;">
           <div style="height: 120px;">
 
           </div>
@@ -181,8 +454,9 @@
           </div>
         </div> -->
     </div>
+    <div class="temp"></div>
   </div>
-<!-- <div style="height: 500px;">
+  <!-- <div style="height: 500px;">
 
 </div> -->
   <app-companies></app-companies>

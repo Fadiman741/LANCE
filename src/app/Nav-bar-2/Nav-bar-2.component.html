@@ -1,23 +1,33 @@
-<div style="height:90px;background-color: #0A4041;width: 100%;">
-  <nav class="navbar" style="padding-left: 20px;padding-right: 20px;">
+<div
+  style="
+    height: 70px;
+    background-color: rgb(5, 47, 48);
+    width: 100%;
+    border-radius: 15px;
+  "
+>
+  <nav class="navbar" style="padding-left: 20px; padding-right: 20px">
     <!-- LOGO -->
     <div class="logo">
-        <!-- <h1 style="font-weight: 600;color: orange;;">Logo</h1> -->
-        <!-- <img src="assets/LOGO/5.png"> -->
-        <div (click)="routeHome()" style="max-width: 130px;max-height: 140px; margin: auto;" >
-          <img src="assets/logo/logo3.png" style="width: 100%;">
-        </div>
+      <!-- <h1 style="font-weight: 600;color: orange;;">Logo</h1> -->
+      <!-- <img src="assets/LOGO/5.png"> -->
+      <div
+        (click)="routeHome()"
+        style="max-width: 100px; max-height: 140px; margin: auto"
+      >
+        <img src="assets/logo/logo3.png" style="width: 100%" />
+      </div>
     </div>
     <!-- NAVIGATION MENU -->
     <ul class="nav-links">
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-        <div class="menu">
-            <li (click)="routeHome()" ><a class="navlinks" >Home</a></li>
-            <!-- <li ><a class="navlinks whoarewe">Who we are ? </a></li>
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <div class="menu">
+        <li (click)="routeHome()"><a class="navlinks">Home</a></li>
+        <!-- <li ><a class="navlinks whoarewe">Who we are ? </a></li>
             <li ><a class="navlinks whatarewe" >What we do ?</a></li>
             <li ><a class="navlinks Howwedoit" >How we do it ? </a></li> -->
-        </div>
+      </div>
     </ul>
   </nav>
 </div>

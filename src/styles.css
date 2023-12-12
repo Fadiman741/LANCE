@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 *{
         margin: 0;
+        /* font-size: 16px; */
+        font-family: Avenir Next,
+                sans-serif;
+}
+hr.style-two {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(212, 157, 5, 0),rgba(212, 157, 5, 0.877), rgba(0, 0, 0, 0));
 }

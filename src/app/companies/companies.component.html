@@ -1,21 +1,45 @@
-<div style="background-color: #0A4041; padding-top: 50px;padding-bottom: 50px;">
-    <h1 style="text-align: center;padding-bottom: 40px;color: orange;font-size: 40px;">Some client's we've worked with</h1>
-  <div class="container" #container style="opacity: 0.8;">
-    <div class="left" *ngIf="totalPages > 1" (click)="currentPage != 1 && changePage(-1)" [ngClass]="{'disabled':currentPage === 1}"></div>
-    <div class="cards" [ngClass]="{'w-100': totalPages === 1}">
-      <div class="overflow" [ngStyle]="{'width': overflowWidth, 'left': pagePosition}">
-        <div class="card" *ngFor="let item of Imagesdelatils; let index = index" [ngStyle]="{'width': cardWidth}">
+<div style="background-color: #0a4041; padding-top: 50px; padding-bottom: 50px">
+  <h1
+    style="
+      text-align: center;
+      padding-bottom: 40px;
+      color: orange;
+      font-size: 40px;
+    "
+  >
+    Some client's we've worked with
+  </h1>
+  <div class="container" #container style="opacity: 0.8">
+    <div
+      class="left"
+      *ngIf="totalPages > 1"
+      (click)="currentPage != 1 && changePage(-1)"
+      [ngClass]="{ disabled: currentPage === 1 }"
+    ></div>
+    <div class="cards" [ngClass]="{ 'w-100': totalPages === 1 }">
+      <div
+        class="overflow"
+        [ngStyle]="{ width: overflowWidth, left: pagePosition }"
+      >
+        <div
+          class="card"
+          *ngFor="let item of Imagesdelatils; let index = index"
+          [ngStyle]="{ width: cardWidth }"
+        >
           <!-- <div>{{i}}</div> -->
-          
-                <div  style="width:100%;height: 100%;">
-                    <img style="width:100%;height: 100%;" src="{{item.url}}">
-                </div>
+
+          <div style="width: 100%; height: 100%">
+            <img style="width: 100%; height: 100%" src="{{ item.url }}" />
+          </div>
         </div>
       </div>
     </div>
-    <div class="right" *ngIf="totalPages > 1" (click)="currentPage != totalPages && changePage(+1)"
-      [ngClass]="{'disabled':currentPage === totalPages}">
-    </div>
+    <div
+      class="right"
+      *ngIf="totalPages > 1"
+      (click)="currentPage != totalPages && changePage(+1)"
+      [ngClass]="{ disabled: currentPage === totalPages }"
+    ></div>
   </div>
   <!-- <div style="max-width: 1800px;margin:auto;display: flex;justify-content: space-between; background-color: #0A4041;">
     <div style="width:250px;height: 200px;">
@@ -45,3 +69,14 @@
   
   </div> -->
 </div>
+<!-- --------------------------------------------------- -->
+
+<!-- <div>
+  <owl-carousel-o [options]="customOptions">
+    <ng-container *ngFor="let slide of Imagesdelatils">
+      <ng-template carouselSlide>
+        <img [src]="slide.url" />
+      </ng-template>
+    </ng-container>
+  </owl-carousel-o>
+</div> -->

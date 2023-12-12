@@ -1,4 +1,7 @@
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 import { LocationStrategy, Location, PathLocationStrategy } from '@angular/common';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -39,7 +42,9 @@ import {EmailService} from './service/email.service';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    CarouselModule,
   ],
   providers: [EmailService, Location, {provide: LocationStrategy, useClass: PathLocationStrategy}],
   bootstrap: [AppComponent]

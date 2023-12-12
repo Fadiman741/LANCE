@@ -1,4 +1,5 @@
-import { Component, OnInit,ViewChild, ElementRef,HostListener } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-companies',
@@ -64,5 +65,29 @@ export class CompaniesComponent implements OnInit {
   populatePagePosition() {
     this.pagePosition = `calc(${-100 * (this.currentPage - 1)}% - ${10 *
       (this.currentPage - 1)}px)`;
+  }
+  customOptions: OwlOptions = {
+    loop: true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    dots: false,
+    navSpeed: 600,
+    navText: ['&#8249', '&#8250;'],
+    responsive: {
+      0: {
+        items: 1 
+      },
+      400: {
+        items: 2
+      },
+      760: {
+        items: 3
+      },
+      1000: {
+        items: 4
+      }
+    },
+    nav: true
   }
 }

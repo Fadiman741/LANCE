@@ -2,8 +2,8 @@ hr {
         overflow: visible; /* For IE */
         padding: 0;
         border: none;
-        border-top: medium double #0A4041;
-        color: #0A4041;
+        /* border-top: medium double #1c1d1d; */
+        color: #1e1f1f;
         text-align: center;
 }
 hr:after {
@@ -13,7 +13,7 @@ hr:after {
         top: -0.8em;
         font-size: 1.2em;
         padding: 0 0.15em;
-        background: #0A4041;
+        background: #1f2222;
 }
 .footer{
         /* margin-bottom: 30px; */
@@ -27,6 +27,7 @@ p{
         font-family: "Work Sans",sans-serif;
         font-size: 15px;    
         padding-top: 15px;
+        color: #949494c7;
 
 }
 h2{
@@ -37,7 +38,7 @@ h2 {
         display: inline-block;
         position: relative;
         padding-top: 20px;
-        color: #0A4041;
+        color: orange;
         font-size: medium;
         padding-bottom: 2px;
 }
@@ -49,7 +50,7 @@ h2:after {
         height: 2px;
         bottom: 0;
         left: 0;
-        background-color:  #0A4041;
+        background-color:  orange;
         transform-origin: bottom right;
         padding: 1px;
         transition: transform 0.25s ease-out;
@@ -64,7 +65,7 @@ a{
         font-family: "Work Sans",sans-serif;
         font-size: 15px;  
         padding-top: 15px;
-        color: black;
+        color: #949494c7;
 }
 .social-icons{
         /* border: 1px solid #0A4041; */
@@ -74,7 +75,7 @@ a{
 }
 fa-icon{
         font-size: 35px;   
-        color: #0A4041;    
+        color: #7a7a7a;    
 }
 @media screen and (max-width: 678px) {
         .footer-items{
